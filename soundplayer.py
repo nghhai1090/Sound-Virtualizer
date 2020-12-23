@@ -3,7 +3,7 @@ import time
 import pyaudio
 import numpy as np
 import wave
-class alien(object):
+class virtualizer(object):
      def __init__(self):
         self.root = Tk()
         self.root.resizable(width=False, height=False)
@@ -52,4 +52,4 @@ class alien(object):
         stream.close()
         p.terminate()
 
-alien()
+virtualizer()
