@@ -21,7 +21,7 @@ class virtualizer(object):
         track = 0
         CHUNK =1024
         RATE = 44100
-        filename = 'D:\TT\Downloads\maynoicaigi.wav'
+        filename = 'your wav file here'
         wf = wave.open(filename)
         w= wave.open(filename)
         p=pyaudio.PyAudio()
