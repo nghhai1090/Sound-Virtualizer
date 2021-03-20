@@ -104,7 +104,7 @@ class Virtualizer:
             else : 
                 self.animation(filename,index+1)
                 
-fileslist=['D:\TT\Downloads\pooping.wav','D:\TT\Downloads\grownup.wav','D:\TT\Downloads\imlang.wav']
+fileslist=['your .wav files here']
 virtualiser = Virtualizer()
 virtualiser.animation(fileslist,0)
 virtualiser.root.mainloop() 
